@@ -43,7 +43,7 @@ Adafruit_NeoPixel pixels = Adafruit_NeoPixel(16, 2, NEO_GRB + NEO_KHZ800);
 int pixel_ring_order[12] = {15,14,13,12,11,10,9,8,7,6,5,4}; //we are neglecting 4 pixels and running in reverse, so let's create a new order.
 
 //__________________________________ neo pixel LED bars
-Adafruit_NeoPixel pixels_intensity = Adafruit_NeoPixel(8, 9, NEO_GRB + NEO_KHZ800);
+Adafruit_NeoPixel pixels_intensity = Adafruit_NeoPixel(8, 9, NEO_GRB);
 Adafruit_NeoPixel pixels_duration = Adafruit_NeoPixel(8, 10, NEO_GRB + NEO_KHZ800);
 
 //__________________________________intensity
